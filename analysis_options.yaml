@@ -1,0 +1,17 @@
+include: package:effective_dart/analysis_options.yaml
+
+linter:
+  rules:
+    annotate_overrides: true
+    await_only_futures: true
+    cancel_subscriptions: true
+    close_sinks: true
+    comment_references: true
+    control_flow_in_finally: true
+    empty_statements: true
+    prefer_typing_uninitialized_variables: true
+    prefer_expression_function_bodies: true
+    use_function_type_syntax_for_parameters: true
+
+    # TODO 暂时关闭 后面补上API文档
+    public_member_api_docs: false
